@@ -1,9 +1,8 @@
-
 import InsectClass as i
 
 def main():
 
-    an_insect = i.Insect()
+    an_insect = i.Insect(2,4)
 
     an_insect.calc_flight()
 
